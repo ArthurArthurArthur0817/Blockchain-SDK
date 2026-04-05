@@ -1,0 +1,107 @@
+0 verbose cli D:\nodejs\node.exe D:\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:D:\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\hgchg\Desktop\VisualStudio\Blockchain\eil_project\relayer\.npmrc
+5 silly config load:file:C:\Users\hgchg\.npmrc
+6 silly config load:file:D:\npm-global\etc\npmrc
+7 verbose title npm install ethers
+8 verbose argv "install" "ethers" "--cache" "./.npm-cache" "--prefer-offline"
+9 verbose logfile logs-max:10 dir:C:\Users\hgchg\Desktop\VisualStudio\Blockchain\eil_project\relayer\.npm-cache\_logs\2026-03-13T02_37_41_399Z-
+10 verbose logfile C:\Users\hgchg\Desktop\VisualStudio\Blockchain\eil_project\relayer\.npm-cache\_logs\2026-03-13T02_37_41_399Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest ethers@*
+15 silly packumentCache full:https://registry.npmjs.org/ethers cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 136ms
+17 http fetch GET 200 https://registry.npmjs.org/ethers 274ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/ethers set size:undefined disposed:false
+19 silly placeDep ROOT ethers@6.16.0 OK for:  want: *
+20 silly fetch manifest ws@8.17.1
+21 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+22 silly fetch manifest tslib@2.7.0
+23 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+24 silly fetch manifest aes-js@4.0.0-beta.5
+25 silly packumentCache full:https://registry.npmjs.org/aes-js cache-miss
+26 silly fetch manifest @types/node@22.7.5
+27 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+28 silly fetch manifest @noble/curves@1.2.0
+29 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves cache-miss
+30 silly fetch manifest @noble/hashes@1.3.2
+31 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+32 silly fetch manifest @adraffy/ens-normalize@1.10.1
+33 silly packumentCache full:https://registry.npmjs.org/@adraffy%2fens-normalize cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/tslib 61ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/ws 67ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 140ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:undefined disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/aes-js 505ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/aes-js set size:undefined disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/@adraffy%2fens-normalize 531ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/@adraffy%2fens-normalize set size:undefined disposed:false
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 617ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+46 http fetch GET 200 https://registry.npmjs.org/@noble%2fcurves 720ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves set size:undefined disposed:false
+48 silly fetch manifest bufferutil@^4.0.1
+49 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/bufferutil 42ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+52 silly fetch manifest utf-8-validate@>=5.0.2
+53 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 51ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+56 silly placeDep ROOT @adraffy/ens-normalize@1.10.1 OK for: ethers@6.16.0 want: 1.10.1
+57 silly placeDep ROOT @noble/curves@1.2.0 OK for: ethers@6.16.0 want: 1.2.0
+58 silly placeDep ROOT @noble/hashes@1.3.2 OK for: ethers@6.16.0 want: 1.3.2
+59 silly placeDep ROOT @types/node@22.7.5 OK for: ethers@6.16.0 want: 22.7.5
+60 silly placeDep ROOT aes-js@4.0.0-beta.5 OK for: ethers@6.16.0 want: 4.0.0-beta.5
+61 silly placeDep ROOT tslib@2.7.0 OK for: ethers@6.16.0 want: 2.7.0
+62 silly placeDep ROOT ws@8.17.1 OK for: ethers@6.16.0 want: 8.17.1
+63 silly fetch manifest undici-types@~6.19.2
+64 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/undici-types 42ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+67 silly placeDep ROOT undici-types@6.19.8 OK for: @types/node@22.7.5 want: ~6.19.2
+68 silly reify moves {}
+69 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz. Extracting by manifest.
+70 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.17.1.tgz. Extracting by manifest.
+71 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz. Extracting by manifest.
+72 silly tarball no local data for aes-js@https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz. Extracting by manifest.
+73 silly tarball no local data for ethers@https://registry.npmjs.org/ethers/-/ethers-6.16.0.tgz. Extracting by manifest.
+74 silly tarball no local data for @adraffy/ens-normalize@https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.10.1.tgz. Extracting by manifest.
+75 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-22.7.5.tgz. Extracting by manifest.
+76 silly tarball no local data for @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.2.tgz. Extracting by manifest.
+77 silly tarball no local data for @noble/curves@https://registry.npmjs.org/@noble/curves/-/curves-1.2.0.tgz. Extracting by manifest.
+78 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz 129ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.17.1.tgz 146ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz 188ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.10.1.tgz 297ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz 382ms (cache miss)
+83 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-22.7.5.tgz 537ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.2.tgz 655ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/@noble/curves/-/curves-1.2.0.tgz 695ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/ethers/-/ethers-6.16.0.tgz 1883ms (cache miss)
+87 silly ADD node_modules/undici-types
+88 silly ADD node_modules/ws
+89 silly ADD node_modules/tslib
+90 silly ADD node_modules/aes-js
+91 silly ADD node_modules/@types/node
+92 silly ADD node_modules/@noble/hashes
+93 silly ADD node_modules/@noble/curves
+94 silly ADD node_modules/@adraffy/ens-normalize
+95 silly ADD node_modules/ethers
+96 verbose cwd C:\Users\hgchg\Desktop\VisualStudio\Blockchain\eil_project\relayer
+97 verbose os Windows_NT 10.0.26200
+98 verbose node v20.17.0
+99 verbose npm  v10.8.2
+100 notice
+100 notice New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.11.1[39m
+100 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.11.1[39m
+100 notice To update run: [4mnpm install -g npm@11.11.1[24m
+100 notice  { force: true, [Symbol(proc-log.meta)]: true }
+101 verbose exit 0
+102 info ok
